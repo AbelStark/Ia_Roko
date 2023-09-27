@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>IA ROKO</title>
+  <!-- Link Styles -->
+  <link rel="stylesheet" href="style/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo_details">
+      <i class="bx bxl-audible icon"></i>
+      <div class="logo_name">ROKO</div>
+      <i class="bx bx-menu" id="btn"></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a href="index.html">
+          <i class="bx bx-grid-alt"></i>
+          <span class="link_name">Home</span>
+        </a>
+        <span class="tooltip">Home</span>
+      </li>
+      <li>
+        <a href="About.html">
+          <i class="bx bx-user"></i>
+          <span class="link_name">About</span>
+        </a>
+        <span class="tooltip">About</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-chat"></i>
+          <span class="link_name">IA ROKO</span>
+        </a>
+        <span class="tooltip">IA ROKO</span>
+      </li>
+      <div class="chat-history">
+        <!-- Aquí se agregarán los mensajes del historial -->
+      </div>
+      <li class="profile">
+        <div class="profile_details">
+          <img src="img/admin.png" alt="profile image">
+          <div class="profile_content">
+            <div class="name">Guillermo </div>
+            <div class="designation">Admin</div>
+          </div>
+        </div>
+        <i class="bx bx-log-out" id="log_out"></i>
+      </li>
+    </ul>
+  </div>
+  <section class="home-sectionIA">
+    <div class="ai-content">
+      <!-- Contenido generado por la inteligencia artificial -->
+    </div>
+    <div class="user-content">
+      <!-- Contenido generado por el usuario -->
+    </div>
+
+    <div class="input-container">
+      <p id="output"></p>
+      <div class="input-form">
+        <input type="text" id="mensaje" name="mensaje" placeholder="Que te gustaria saber?">
+        <div id="submit">Enviar</div>
+      </div>
+    </div>
+  </section>
+  <!-- Scripts -->
+  <script src="script/script.js"></script>
+   <script src="script/app.js"></script>
+</body>
+</html>
